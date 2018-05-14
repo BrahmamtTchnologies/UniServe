@@ -1,0 +1,40 @@
+﻿<UserControl x:Class="UniServe.View.POS"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Order&#xD;&#xA;" Height="60" Margin="2" Grid.Column="0" Grid.Row="0" Click="Button_Click_2" />
+        <Button Content="Bill&#xD;&#xA;" Height="60" Margin="2" Grid.Column="0" Grid.Row="1" />
+        <Button Content="Bill Reprint&#xD;&#xA;" Height="60" Margin="2" Grid.Column="0" Grid.Row="2" />
+        <Button Content="Order Cancellation&#xD;&#xA;" Height="60" Margin="2" Grid.Column="0" Grid.Row="3" />
+        <Button Content="Day Open" Height="60" Margin="2" Grid.Column="0" Grid.Row="4" Click="Button_Click" />
+        <Button Content="Day Close" Height="60" Margin="2" Grid.Column="0" Grid.Row="5" Click="Button_Click_1" />
+        <Button Content="Item List" Height="60" Margin="2" Grid.Column="0" Grid.Row="6" />
+
+        <Button Content="Item Sale Report" Height="60" Margin="2" Grid.Column="1" Grid.Row="0" />
+        <Button Content="Bill Summary" Height="60" Margin="2" Grid.Column="1" Grid.Row="1" />
+        <Button Content="Time Scale Report" Height="60" Margin="2" Grid.Column="1" Grid.Row="2" />
+        <Button Content="Group wise Sale Report" Height="60" Margin="2" Grid.Column="1" Grid.Row="3" />
+        <Button Content="Group Item wise Report" Height="60" Margin="2" Grid.Column="1" Grid.Row="4" />
+        <Button Content="Fast slow moving item Report" Height="60" Margin="2" Grid.Column="1" Grid.Row="5" />
+        <Button Content="Customer sale Report" Height="60" Margin="2" Grid.Column="1" Grid.Row="6" />
+    </Grid>
+</UserControl>

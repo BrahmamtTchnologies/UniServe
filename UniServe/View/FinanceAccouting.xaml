@@ -1,0 +1,33 @@
+﻿<UserControl x:Class="UniServe.View.FinanceAccouting"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            
+            
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Voucher Accounting&#xD;&#xA;" Height="60" Margin="2" Grid.Column="0" Grid.Row="0" />
+        <Button Content="Ledger&#xD;&#xA;&#xA;" Height="60" Margin="2" Grid.Column="0" Grid.Row="1" />
+        <Button Content="Bank Book&#xD;&#xA;&#xA;" Height="60" Margin="2" Grid.Column="0" Grid.Row="2" />
+        <Button Content="PnL&#xD;&#xA;&#xA;" Height="60" Margin="2" Grid.Column="0" Grid.Row="3" />
+        <Button Content="Debitors &amp; Creditors Report&#xD;&#xA;" Height="60" Margin="2" Grid.Column="0" Grid.Row="4" />
+
+        <Button Content="Journal Voucher&#xD;&#xA;" Height="60" Margin="2" Grid.Column="1" Grid.Row="0" />
+        <Button Content="Cash Book&#xD;&#xA;" Height="60" Margin="2" Grid.Column="1" Grid.Row="1" />
+        <Button Content="Day Book&#xD;&#xA;" Height="60" Margin="2" Grid.Column="1" Grid.Row="2" />
+        <Button Content="Balance Sheet&#xD;&#xA;" Height="60" Margin="2" Grid.Column="1" Grid.Row="3" />
+    </Grid>
+</UserControl>
